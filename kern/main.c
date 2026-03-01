@@ -1,7 +1,7 @@
 /*
  *	Copyright 1973 Bell Telephone Laboratories Inc
  */
-/* SPDX License Indentifier: BSD-2.0 OR MPL-2.0 */
+/* SPDX License Indentifier: BSD-3.0 OR MPL-2.0 */
 
 #include "param.h"
 #include "user.h"
