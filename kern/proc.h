@@ -1,3 +1,5 @@
+#include "param.h"
+
 struct proc {
 	char	p_stat;
 	char	p_flag;
@@ -12,7 +14,8 @@ struct proc {
 	int	p_size;
 	int	p_wchan;
 	int	*p_textp;
-} proc;
+        char p_cpu;   
+} proc[NPROC];
 
 /* stat codes */
 #define	SSLEEP	1
