@@ -30,4 +30,4 @@ int	swplo;
 int	nswap;
 int	updlock;
 int	rablock;
-extern struct callo callout[];
+
