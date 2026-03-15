@@ -1,3 +1,4 @@
+#ifndef PARAM_H
 /*
  * variables
  */
@@ -68,3 +69,5 @@ struct
 	char	lobyte;
 	char	hibyte;
 };
+
+#endif
