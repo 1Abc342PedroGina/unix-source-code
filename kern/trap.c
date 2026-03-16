@@ -33,7 +33,7 @@ void clearseg(int);
 void savfp(void);
 void savu(int *);
 void swtch(void);
-void panic(char *);
+extern void panic(const char*);
 extern void printf(const char*, ...);
 int issig(void);
 void psig(void);
