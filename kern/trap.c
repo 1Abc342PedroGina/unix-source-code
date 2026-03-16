@@ -9,7 +9,7 @@
 #include "reg.h"
 #include "seg.h"
 
-#define EBIT    1
+#define EBIT    1 
 #define UMODE   0170000
 #define SETD    0170011
 
