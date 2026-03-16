@@ -6,7 +6,7 @@
 #define UMODE       0170000
 #define SCHMAG      10
 #define HZ          60
-
+ 
 extern void display(void);
 extern int spl5(void);
 extern int spl1(void);
