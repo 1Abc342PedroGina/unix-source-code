@@ -34,7 +34,7 @@ void savfp(void);
 void savu(int *);
 void swtch(void);
 void panic(char *);
-void printf(char *, ...);
+extern void printf(const char*, ...);
 int issig(void);
 void psig(void);
 void trap1(int (*)(void));
